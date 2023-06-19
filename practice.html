@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Professional Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        nav {
+            background-color: #222;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        @keyframes slideInRight {
+            0% { opacity: 0; transform: translateX(-100px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        .fade-in {
+            animation-name: fadeIn;
+        }
+
+        .slide-in-right {
+            animation-name: slideInRight;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Professional Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="animated fade-in">
+        <h2>About</h2>
+        <p>This is a professional website created using HTML and CSS.</p>
+        <p>We aim to provide high-quality services to our clients.</p>
+    </section>
+    <section class="animated slide-in-right">
+        <h2>Services</h2>
+        <p>We offer a wide range of services to meet your needs.</p>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>SEO</li>
+            <li>Content Writing</li>
+        </ul>
+    </section>
+    <section class="animated fade-in">
+        <h2>Contact</h2>
+        <p>Email: example@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    <footer>
+        &copy; 2023
